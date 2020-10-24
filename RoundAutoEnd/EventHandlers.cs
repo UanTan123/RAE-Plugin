@@ -33,10 +33,10 @@ namespace RoundAutoEnd
 
         private IEnumerator<float> RAE()
         {
-            yield return Timing.WaitForSeconds(Plugin.Instance.Config.EndMessage);
+            yield return Timing.WaitForSeconds(Plugin.Config.EndMessage);
             RoundSummary.RoundLock = false;
             RoundSummary.singleton.ForceEnd();
-            Log.Info($"요청하신 대로, {Plugin.Instance.Config.EndMessage}초 후 라운드가 종료되었습니다.");
+            Log.Info($"요청하신 대로, {Plugin.Config.EndMessage}초 후 라운드가 종료되었습니다.");
         }
     }
 }
