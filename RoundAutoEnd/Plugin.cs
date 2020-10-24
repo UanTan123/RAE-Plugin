@@ -1,15 +1,7 @@
 ﻿using Exiled.API.Enums;
 using Exiled.API.Features;
 using System;
-using Player = Exiled.Events.Handlers.Player;
 using Server = Exiled.Events.Handlers.Server;
-using Map = Exiled.Events.Handlers.Map;
-using Warhead = Exiled.Events.Handlers.Warhead;
-using Scp049 = Exiled.Events.Handlers.Scp049;
-using Scp079 = Exiled.Events.Handlers.Scp079;
-using Scp096 = Exiled.Events.Handlers.Scp096;
-using Scp106 = Exiled.Events.Handlers.Scp106;
-using Scp914 = Exiled.Events.Handlers.Scp914;
 using MEC;
 using System.Collections.Generic;
 
